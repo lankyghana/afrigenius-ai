@@ -1,0 +1,4 @@
+<resources>
+  <string name="app_name">afrigenius-nativewind</string>
+  <string name="system_ui_user_interface_style" translatable="false">automatic</string>
+</resources>
