@@ -1,200 +1,313 @@
-# AfriGenius AI - COMPSSA x Alle AI Hackathon Project
+# AfriGenius AI 🌍🎓
 
-## 🌍 Project Overview
+[![GitHub Repository](https://img.shields.io/badge/GitHub-afrigenius--ai-blue?logo=github)](https://github.com/lankyghana/afrigenius-ai)
+[![Platform](https://img.shields.io/badge/Platform-React%20Native-blue?logo=react)](https://reactnative.dev/)
+[![Expo](https://img.shields.io/badge/Expo-SDK%2053-000020?logo=expo)](https://expo.dev/)
+[![TypeScript](https://img.shields.io/badge/TypeScript-5.0-blue?logo=typescript)](https://www.typescriptlang.org/)
+[![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 
-AfriGenius AI is an advanced AI-powered educational platform designed specifically for African learners and entrepreneurs. Built for the COMPSSA x Alle AI Hackathon, it leverages cutting-edge AI models to provide culturally relevant explanations, business tools, and learning resources tailored to African contexts and languages.
+AfriGenius AI is an innovative African-themed educational platform that leverages artificial intelligence to provide personalized learning experiences. Built with React Native and Expo, the app offers AI-powered explanations, cultural context, and skill development tools designed specifically for African learners.
 
-## ✨ Key Features
+## 🔗 Repository
 
-### 🎓 **Smart Learning Module**
-- **AI-Powered Explanations:** Get clear, practical, and culturally relevant answers for academic topics
-- **Subject Selection:** Mathematics, Science, English, Geography, and custom topics
-- **Multi-Model Support:** Choose from GPT-4, Claude 3.5, DeepSeek V2, and Owen 2.5
-- **Language Support:** English, Twi, Yoruba, Swahili, French, and more African languages
-- **Voice & Sharing:** Listen to AI responses or share them easily
+**GitHub**: [https://github.com/lankyghana/afrigenius-ai](https://github.com/lankyghana/afrigenius-ai)
 
-### 🚀 **Prompt Enhancement Tool**
-- **Advanced Prompt Engineering:** Enhance your prompts for better AI responses
-- **Quality Analysis:** Get quality scores and improvement suggestions
-- **Multi-Model Enhancement:** Use different AI models for prompt optimization
-- **Real-time Feedback:** Instant analysis of prompt clarity, specificity, and actionability
+## 🌟 Features
 
-### 💼 **Business Asset Generator**
-- **Business Names:** Generate culturally appropriate business names for African markets
-- **Taglines & Descriptions:** Create compelling marketing content
-- **Social Media Content:** Generate platform-specific marketing materials
-- **African Market Focus:** All content optimized for African business contexts
+### 🎓 AI-Powered Learning
+- **Smart Explanations**: Get detailed explanations on any topic using advanced AI models
+- **Multiple AI Models**: Choose from GPT-4, Claude, Gemini, and more
+- **Multi-language Support**: Learn in English, French, Arabic, and local African languages
+- **Subject Specialization**: Focused learning paths for Mathematics, Science, English, and more
 
-### 🎨 **Cultural Explorer**
-- **African Heritage:** Explore rich African cultural traditions and history
-- **Interactive Learning:** Ask questions about African cultures, languages, and customs
-- **Visual Content:** Image and multimedia support for cultural learning
+### 🎨 Beautiful African-Themed Design
+- **Cultural Aesthetics**: Warm earth tones inspired by African landscapes
+- **Dark/Light Themes**: Comprehensive theming system with smooth transitions
+- **Responsive Design**: Optimized for both mobile and web platforms
+- **Accessibility**: High contrast ratios and inclusive design principles
 
-### 🛡️ **Premium Features**
-- **Subscription System:** Free tier with limited access, premium for unlimited usage
-- **History Tracking:** Save and review all your learning sessions
-- **Advanced Analytics:** Detailed insights into your learning progress
+### 🚀 Modern Architecture
+- **React Native + Expo**: Cross-platform mobile development
+- **TypeScript**: Type-safe development with excellent IDE support
+- **Context API**: Efficient state management for themes and user data
+- **Modular Components**: Reusable and maintainable component architecture
 
-## 🛠️ Technical Stack
+### 💡 Enhanced Features
+- **Usage Tracking**: Monitor your learning progress and API usage
+- **Offline Storage**: Save your learning history and preferences locally
+- **Subscription System**: Premium features with usage limits
+- **Speech Synthesis**: Listen to explanations with text-to-speech
+- **Content Sharing**: Share learning content with others
 
-- **Framework:** React Native with Expo Router (SDK 53)
-- **Language:** TypeScript/JavaScript
-- **AI Integration:** Alle AI API with multiple model support
-- **UI/UX:** Custom responsive design with modern African-inspired aesthetics
-- **State Management:** React Context API and hooks
-- **Storage:** AsyncStorage for offline capabilities
-- **Platforms:** Web, Android (iOS ready)
-- **Authentication:** Custom authentication system
+## 🛠️ Technology Stack
 
-## 🔧 API Integration
+- **Frontend**: React Native, Expo SDK 53
+- **Language**: TypeScript
+- **Navigation**: Expo Router (file-based routing)
+- **Styling**: StyleSheet with dynamic theming
+- **State Management**: React Context API
+- **Storage**: AsyncStorage for local data persistence
+- **AI Integration**: Alle AI API with multiple model support
+- **Icons**: Lucide React Native
+- **Development**: Metro bundler, Expo CLI
 
-### Alle AI Integration
-- **Base URL:** `https://api.alle-ai.com/api/v1`
-- **Authentication:** X-API-KEY header
-- **Models Supported:**
-  - GPT-4o (mapped from gpt-4)
-  - Claude 3.5 Sonnet
-  - DeepSeek R1
-  - Gemini Pro
+## 📱 Supported Platforms
 
-### Environment Setup
-Create a `.env` file in the root directory:
-```
-EXPO_PUBLIC_ALLE_AI_API_KEY=your_api_key_here
-```
+- ✅ iOS (via Expo Go or development build)
+- ✅ Android (via Expo Go or development build)
+- ✅ Web (Progressive Web App)
 
 ## 🚀 Getting Started
 
 ### Prerequisites
-- Node.js (v18+ recommended)
-- Android Studio (for Android development)
-- Expo CLI
-- Alle AI API key
+
+- Node.js (v18 or higher)
+- npm or yarn
+- Expo CLI (`npm install -g @expo/cli`)
+- Git
 
 ### Installation
-```bash
-# Clone the repository
-git clone [repository-url]
-cd AfriGenius-AI
 
-# Install dependencies
-npm install
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/lankyghana/afrigenius-ai.git
+   cd afrigenius-ai
+   ```
 
-# Start the development server
-npx expo start
-```
+2. **Install dependencies**
+   ```bash
+   npm install
+   ```
 
-### Running the App
+3. **Set up environment variables**
+   
+   Create a `.env` file in the root directory:
+   ```env
+   EXPO_PUBLIC_ALLE_AI_API_KEY=your_alle_ai_api_key_here
+   ```
+   
+   Get your API key from [Alle AI](https://alle-ai.com) and replace `your_alle_ai_api_key_here`.
 
-#### Web Development
-```bash
-npx expo start --web
-# Opens at http://localhost:8081
-```
+4. **Start the development server**
+   ```bash
+   npx expo start
+   ```
 
-#### Android Development
-```bash
-npx expo start --android
-# Requires Android Studio emulator or physical device
-```
-
-#### iOS Development
-```bash
-npx expo start --ios
-# Requires Xcode (macOS only)
-```
+5. **Run on your preferred platform**
+   - **iOS**: Press `i` in the terminal or scan QR code with Camera app
+   - **Android**: Press `a` in the terminal or scan QR code with Expo Go
+   - **Web**: Press `w` in the terminal or open `http://localhost:8081`
 
 ## 📁 Project Structure
 
 ```
-AfriGenius AI/
+afrigenius-ai/
 ├── app/                    # Main application screens
 │   ├── (tabs)/            # Tab-based navigation screens
-│   │   ├── index.tsx      # Smart Learning module
-│   │   ├── enhance.tsx    # Prompt Enhancement tool
-│   │   ├── hustle.tsx     # Business Asset generator
-│   │   ├── culture.tsx    # Cultural Explorer
-│   │   ├── skills.tsx     # Skills Learning
-│   │   └── subscription.tsx # Premium features
-│   ├── _layout.tsx        # Root layout with navigation
-│   └── auth/              # Authentication screens
+│   │   ├── index.tsx      # Learn Smart (main learning screen)
+│   │   ├── enhance.tsx    # Prompt Enhancement
+│   │   ├── skills.tsx     # Skill Development
+│   │   ├── culture.tsx    # Cultural Learning
+│   │   ├── hustle.tsx     # Entrepreneurship
+│   │   └── subscription.tsx # Subscription management
+│   ├── auth/              # Authentication screens
+│   ├── _layout.tsx        # Root layout with theme provider
+│   └── +not-found.tsx     # 404 error page
 ├── components/            # Reusable UI components
-│   ├── common/           # Shared components
-│   └── subscription/     # Premium feature components
-├── services/             # API and business logic
-│   ├── api.ts           # Alle AI integration
-│   ├── storage.ts       # Local storage management
-│   └── subscription.ts  # Premium feature logic
-├── constants/           # App constants (colors, fonts)
-├── contexts/            # React Context providers
-├── hooks/               # Custom React hooks
+│   ├── common/           # Generic components
+│   │   ├── Header.tsx    # App header with theme toggle
+│   │   ├── AIModelSelector.tsx
+│   │   ├── LanguageSelector.tsx
+│   │   ├── LoadingSpinner.tsx
+│   │   └── ...
+│   └── subscription/     # Subscription-specific components
+├── constants/            # App constants
+│   ├── Colors.ts         # Comprehensive theme colors
+│   └── Fonts.ts          # Typography definitions
+├── contexts/             # React contexts
+│   └── ThemeContext.tsx  # Theme management
+├── services/             # External service integrations
+│   ├── api.ts           # Alle AI API integration
+│   ├── storage.ts       # Local storage utilities
+│   └── subscription.ts  # Subscription logic
 ├── types/               # TypeScript type definitions
-└── assets/              # Images, icons, and media
+└── hooks/               # Custom React hooks
 ```
 
-## 🎯 How to Use
+## 🎨 Theming System
 
-### Smart Learning
-1. Navigate to the "Learn Smart" tab
-2. Select your subject (Math, Science, English, Geography)
-3. Choose your preferred AI model
-4. Select your language
-5. Ask any academic question
-6. Get instant, culturally relevant explanations
+AfriGenius AI features a comprehensive theming system inspired by African aesthetics:
 
-### Prompt Enhancement
-1. Go to the "Enhance" tab
-2. Enter your original prompt
-3. Select AI models for enhancement (up to 2)
-4. Click "Enhance Prompt"
-5. Review the enhanced version with quality metrics
+### Color Palette
+- **Primary**: Warm terracotta (#CD7F32)
+- **Secondary**: Deep forest green (#228B22)
+- **Accent**: Golden yellow (#DAA520)
+- **Earth Tones**: Sahara sand, baobab brown, sunset orange
+- **Natural Colors**: Acacia green, elephant gray, ivory white
 
-### Business Tools
-1. Visit the "Hustle" tab
-2. Choose asset type (name, tagline, description, marketing)
-3. Enter your business details
-4. Get AI-generated business assets optimized for African markets
+### Theme Features
+- ✅ Light and dark mode support
+- ✅ Dynamic color adaptation
+- ✅ Consistent shadows and elevations
+- ✅ Accessibility-compliant contrast ratios
+- ✅ Smooth theme transitions
+- ✅ Persistent theme preferences
 
-## 🔍 Debugging & Troubleshooting
+## 🤖 AI Integration
 
-### Common Issues
-1. **White Screen on Web:** Ensure expo-router is properly configured
-2. **API Errors:** Check your Alle AI API key in the `.env` file
-3. **Build Failures:** Clear cache with `npx expo start --clear`
+### Supported AI Models
+- **GPT-4**: OpenAI's most advanced model
+- **Claude**: Anthropic's conversational AI
+- **Gemini**: Google's multimodal AI
+- **GPT-3.5**: Faster responses for quick queries
 
-### Debug Logging
-The app includes comprehensive logging for API calls. Check browser console (web) or Metro logs for detailed debug information.
+### API Features
+- ✅ Structured prompt enhancement
+- ✅ Multi-language support
+- ✅ Cultural context awareness
+- ✅ Educational content optimization
+- ✅ Error handling and retry logic
+- ✅ Usage tracking and analytics
 
-## 👥 Team
+## 🏗️ Development
 
-- **Daniel Kwadwo Takyi** - Lead Developer
-- **Abena Boah** - Co-Developer
+### Code Style
+- ESLint and Prettier for code formatting
+- TypeScript for type safety
+- Functional components with hooks
+- Modular component architecture
 
-## 🏆 Hackathon Information
+### Available Scripts
+- `npm start` - Start Expo development server
+- `npm run android` - Run on Android emulator
+- `npm run ios` - Run on iOS simulator
+- `npm run web` - Run on web browser
+- `npm run reset-project` - Reset project cache
 
-**COMPSSA x Alle AI Hackathon**
-- Event: [Hackathon Details](https://valuable-shadow-830.notion.site/compssa-x-alle-ai-hackathon)
-- Focus: AI-powered solutions for African education and business
+### Building for Production
+```bash
+# Build for production
+npx expo build
 
-## 🌟 Recent Updates
+# Create development build
+npx expo install --fix
+npx expo run:android
+npx expo run:ios
+```
 
-### Version 2.0 Features
-- ✅ Fixed white screen issues on web
-- ✅ Integrated Alle AI API with proper authentication
-- ✅ Added prompt enhancement functionality
-- ✅ Improved error handling and fallbacks
-- ✅ Enhanced UI/UX with responsive design
-- ✅ Added comprehensive logging and debugging
-- ✅ Implemented quality analysis for enhanced prompts
+## 🔧 Configuration
 
-## 📄 License
+### Expo Configuration (`app.json`)
+```json
+{
+  "expo": {
+    "name": "AfriGenius AI",
+    "slug": "afrigenius-ai",
+    "version": "1.0.0",
+    "platforms": ["ios", "android", "web"],
+    "userInterfaceStyle": "automatic"
+  }
+}
+```
 
-This project is developed for educational and hackathon purposes. Please respect the terms of use for the Alle AI API and other integrated services.
+### Environment Variables
+- `EXPO_PUBLIC_ALLE_AI_API_KEY` - Your Alle AI API key
 
 ## 🤝 Contributing
 
-This is a hackathon project, but we welcome feedback and suggestions for future improvements!
+We welcome contributions to AfriGenius AI! Please follow these steps:
+
+1. **Fork the repository**
+   ```bash
+   git clone https://github.com/lankyghana/afrigenius-ai.git
+   ```
+
+2. **Create a feature branch**
+   ```bash
+   git checkout -b feature/amazing-feature
+   ```
+
+3. **Commit your changes**
+   ```bash
+   git commit -m 'Add amazing feature'
+   ```
+
+4. **Push to the branch**
+   ```bash
+   git push origin feature/amazing-feature
+   ```
+
+5. **Open a Pull Request**
+
+### Development Guidelines
+- Follow TypeScript best practices
+- Maintain component modularity
+- Add proper documentation
+- Test on multiple platforms
+- Respect the African theme aesthetic
+
+## 📄 License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+## 🙏 Acknowledgments
+
+- **Alle AI** for providing excellent AI API services
+- **Expo Team** for the amazing development platform
+- **React Native Community** for continuous innovation
+- **African Developers** for inspiration and cultural insights
+- **Open Source Contributors** who make projects like this possible
+
+## 📞 Support & Contact
+
+### Getting Help
+- **GitHub Issues**: [Report bugs or request features](https://github.com/lankyghana/afrigenius-ai/issues)
+- **Discussions**: [Community discussions](https://github.com/lankyghana/afrigenius-ai/discussions)
+- **Wiki**: [Documentation wiki](https://github.com/lankyghana/afrigenius-ai/wiki)
+
+### Contact Information
+- **Project Maintainer**: [lankyghana](https://github.com/lankyghana)
+- **Email**: support@afrigenius.ai
+
+## 🗺️ Roadmap
+
+### Phase 1: Foundation ✅ (Completed)
+- ✅ Core learning functionality
+- ✅ AI integration with multiple models
+- ✅ Comprehensive theming system
+- ✅ Cross-platform support
+- ✅ Basic user interface
+
+### Phase 2: Enhancement 🔄 (In Progress)
+- 🔄 Voice input/output features
+- 🔄 Offline learning capabilities
+- 🔄 Advanced user profiles
+- 🔄 Learning progress tracking
+- 🔄 Enhanced AI prompt optimization
+
+### Phase 3: Community 📅 (Q2 2025)
+- 📅 User authentication system
+- 📅 Learning community features
+- 📅 Content sharing and collaboration
+- 📅 Teacher/student portals
+- 📅 Advanced analytics dashboard
 
 ---
 
-**Built with ❤️ for Africa by African developers**
+## 🌍 Vision Statement
+
+**"Empowering African minds through AI-driven education, celebrating our rich cultural heritage while building bridges to global knowledge."**
+
+AfriGenius AI is more than just an educational app—it's a movement to democratize quality education across Africa, honoring our traditions while embracing technological advancement.
+
+### Our Mission
+- 🎓 **Democratize Education**: Make quality AI-powered learning accessible to every African student
+- 🌍 **Cultural Preservation**: Integrate African values, languages, and perspectives into modern education
+- 🚀 **Innovation Leadership**: Position Africa as a leader in educational technology and AI
+- 🤝 **Community Building**: Foster a supportive learning community that transcends geographical boundaries
+
+---
+
+**Built with ❤️ for African learners, by African developers**
+
+*"Ubuntu: I am because we are - Together we learn, together we grow"*
